@@ -1,0 +1,86 @@
+/* Reset básico */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+#header {
+  background: linear-gradient(to right, #333, #555);
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#header h1 {
+  font-size: 2.5em;
+}
+
+#header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Secciones */
+section {
+  padding: 40px 0;
+  margin: 20px 0;
+}
+
+#about {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#about .about-img {
+  max-width: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Proyectos */
+#projects .project {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#projects img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#projects a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+}
+
